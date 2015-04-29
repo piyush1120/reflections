@@ -1,0 +1,13 @@
+What happens when you initialize a repository? why do you
+need to do it?
+When I initialize a repository, git creates a .git file on
+the same directory in ehich I have tried to create the repository
+however, this file remains hidden as it is presided with a dot (.)
+Initializing a repository is of vital importance, for without
+it the git commands do not operate on the directory/files which
+has to be under version-control.
+how is the staging area different from the working directory and
+the repository? what value do you think it offers?
+Staging are is the intermediate stage between working directory
+and repository. A file is added to staging area from the working
+directory so that it can be commited to form a repository.
