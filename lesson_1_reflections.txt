@@ -1,0 +1,61 @@
+How did viewing a diff between two versions of a file help you
+see the bug that was introduced?
+The diff command was definitely very usefull, it helped me check the
+difference line to line without any hastle of starring and accesing like an owl.
+
+
+How could having easy access to the entire history of a file make you more 
+efficient programmer in the long term?
+Having easy access to the previous versions of my file helps me a lot while 
+I delve into the future development of my project I don't have to take the pain
+of bothering about my previous versions with different names. They get 
+automatically logged and retained with the perfect date and tim.
+
+
+What do you think are the pros and the cons of
+manually choosing when to create a commit,like
+you do in Git, vs having versions automatically
+saved, like Google docs does?
+Definitely having a say on the moment to commit
+is an advantage that cannot be overlooked. A ninja
+may have to edit long enough to reach/complete a single
+logic sometime and sometimes it is a matter of a single
+line code. So having a Git type of commit facility is 
+recommended over Google docs.
+
+
+Why do you think some version control systems, like
+Git, allow saving multiple files in one commit, while
+others, like Google Docs, treat each file seperately?
+The basic difference comes when the type of file the
+two domains handle are compared. Git is basically used
+for handling codes wich may differ in language but part
+of the same project, Whereas Google Docs is used to control
+versions on normal files which are usually independent of 
+one another.
+
+
+How can you use the commands git log and git diff to view
+the history of files?
+The git log lists all the previous version of a particular
+repository with an ID and a message by the author of the 
+commiter to give a gist idea about the changes made, Whereas
+the diff command is used to list down the differences/changes
+made in the file with a later version when compared with a file
+of an earlier version using ID of the two versions.
+
+
+How might using version control make you more confident to
+make changes taht could break something?
+Definitely version control brings a sense of relief for I do
+have a backup of every change that a make and I have so much
+more option like that of creating a seperate branch of
+repository so why on Earth is someone going to worry about
+experimentations!
+
+
+Now that you have your workspace set up, what do you want to
+try using Git for?
+Now that I have all the neccessary set up handy, I am wanting
+to jump into some real-world example of VCS and it's application
+in real time with a dummy project.
