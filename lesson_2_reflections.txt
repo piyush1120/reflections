@@ -1,13 +1,41 @@
 What happens when you initialize a repository? why do you
 need to do it?
 When I initialize a repository, git creates a .git file on
-the same directory in ehich I have tried to create the repository
-however, this file remains hidden as it is presided with a dot (.)
-Initializing a repository is of vital importance, for without
-it the git commands do not operate on the directory/files which
-has to be under version-control.
+the same directory in ehich I have tried to create the repository 
+however, this file remains hidden as it is 
+presided with a dot (.)Initializing a repository is of vital
+importance, for without it the git commands do not operate on
+the directory/files which has to be under version-control.
+
 how is the staging area different from the working directory and
 the repository? what value do you think it offers?
 Staging are is the intermediate stage between working directory
 and repository. A file is added to staging area from the working
 directory so that it can be commited to form a repository.
+
+How can you use the staging area to make sure you have one
+commit per logical change?
+The staging area acts as an intermediate before commiting
+any version, therefore there is provision for check and
+also comparison with the most recent commit in the repository
+using the "git diff --staged" command.
+
+WHat are some situations when branches would be  helpful in
+keeping your history organised? How would branches help?
+Branches are helpful when a unique feature of the version
+control has to be implemented parallely.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams are meant for individual understanding and absorption
+of the concept in depth. Unless one has a clear idea of the
+branches and the various commits under the branch it will get
+tough for him/her to effictively carry out processes in a time
+bound manner.
+
+What are the pros and cons of Git's automatic merging vs.
+always doing the merges manually?
+Git has been designed apt smartly to show a conflict when the 
+same part of the code is being modified by the two branches
+which then asks for the user's descrition to validate any.
+However this can at times be annoyin but Git also specifies
+the area of conflict in the file itself.
