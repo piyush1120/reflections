@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+I would definitely use remote when I have more than 1 source of contributor to the
+project I am working on. Another reason to commit can be the ease of cloning it into any
+local device so that I can work from anywhere with an internet connection. And yet another
+reason to use remote repository can be to attract other public contributors and their ideas
+if required keeping in mind the confidentiality of the project I am working on.
