@@ -4,3 +4,45 @@ project I am working on. Another reason to commit can be the ease of cloning it 
 local device so that I can work from anywhere with an internet connection. And yet another
 reason to use remote repository can be to attract other public contributors and their ideas
 if required keeping in mind the confidentiality of the project I am working on.
+
+Why might you want to always pull changes manually rather than
+having Git automatically stay up-to-date with your remote
+repository?
+If someone has set up an automatic updation of Git remote and
+local repositories, it may create a lot of trouble for the 
+automatic sync may sync a commit which may have been on a trial basis
+to test the functioning of a particular aspect.
+
+Describe the difference between forks, clones, and branches. When
+would you use one instead of the another?
+Forks= clonning in GitHub and not on local directories.
+Clone= Clonning from GitHub to local machine via Git.
+It may also include clonning from one directory of the machine to another.
+Branches= are nodes created on a single project for experimental puposes
+it is completely on the user to decide when he/she wants to form a new
+branch.
+
+What is the benefit of having a copy of the last known state
+of the remote stored locally?
+The benefit is huge, When people who are also the contributor to
+a certain project, commit to the remote GitHub, there always is 
+an option of diverging the GitHub and local commits into 
+different changes and merge on will if required.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+Without using Git or GitHub, I cannot imagine of anything close that can do
+what this technology was doing. SVN may be seen as an option but again the integration
+process with SVN is a lot more complex and the functionality is definitely
+not as vast as Git/GitHub. So concluding it is obvious to say that using Git/GitHub is
+lot more easier then anything else of the same functionality.
+
+When would you want to make changes in a seperate branch rather than directly
+in master? What benefits does each approach have?
+Each approach definitely have it's own pros and cons. I would basically
+consider committing in a new branch only when I have a suggested change that
+needs consideration of my fellow contributors of the project. I would
+definitely refrain myself from committing on the master branch and rather
+create a pull-request for a group effort.
+However working with a different branch everytime would surely be very confusing
+and tedious but so are the laws sometimes that we abide by, as a citizen.
